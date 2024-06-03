@@ -18,7 +18,7 @@ vim.filetype.add {
 }
 
 
-
+--for command line and mode below status line 
 vim.opt.showmode=true
 vim.opt.cmdheight=1
-
+vim.opt.scrolloff=4
